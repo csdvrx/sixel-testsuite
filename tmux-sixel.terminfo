@@ -1,7 +1,9 @@
 # A tmux-256color based TERMINFO that adds the escape sequences for italic,
 # and sixel, that can be aliased as xterm-256color for compat purposes
-# Install:  tic tmux-sixel.terminfo
-# Usage:    export TERM=tmux-sixel.terminfo
+# Install:  tic tmux-sixel.terminfo; tic -o ~/.terminfo tmux-sixel.terminfo
+# Usage:    export TERM=tmux-sixel
+# Test:     tput smglr|base64
+# Assert:   GzcbWz82OWgbWyVpJXAxJWQ7JXAyJWRzGzg=	
 #
 # am, km, mir, msgr, xenl,
 # am, bce, hs, km, mir, msgr, npc, xenl,
