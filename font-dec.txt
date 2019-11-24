@@ -1,0 +1,25 @@
+DEC VT220 drawing in unicode
+
+U+25C6 Diamond                  ◆
+U+2592 Checkerboard             ▒
+U+2409 Horizontal tab           ␉
+U+240C Form feed                ␌
+U+240D Carrier return           ␍
+U+240A Linefeed                 ␊
+U+2424 Newline                  ␤
+U+240B Vertical tab             ␋
+U+2518 Lower-right corner       ┘
+U+2510 Upper-right corner       ┐
+U+250C Upper-left corner        ┌
+U+2514 Lower-left corner        └
+U+253C Crossing Lines           ┼
+U+23BA Horizontal line 1        ⎺
+U+23BB Horizontal line  3       ⎻
+U+2500 Horizontal line  5       ─
+U+23BC Horizontal line  7       ⎼
+U+23BD Horizontal line  9       ⎽
+U+251C Left "T"                 ├
+U+2524 Right "T"                ┤
+U+2534 Bottom "T"               ┴
+U+252C Top "T"                  ┬
+U+2502 Vertical bar             │
