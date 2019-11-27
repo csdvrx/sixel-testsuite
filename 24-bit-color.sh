@@ -1,8 +1,6 @@
 #!/bin/bash
 
 echo "You should see 4 lines of continuous colors, without bands or breaks except if it reaches the right side of the screen"
-echo
-
 #   This file echoes four gradients with 24-bit color codes
 #   to the terminal to demonstrate their functionality.
 #   The foreground escape sequence is ^[38;2;<r>;<g>;<b>m
@@ -19,7 +17,12 @@ setBackgroundColor()
 
 resetOutput()
 {
-    echo -en "\x1b[0m\n"
+    echo -e "\x1b[0m"
+}
+
+resetOutputFinal()
+{
+    echo -en "\x1b[0m"
 }
 
 # Gives a color $1/255 % along HSV
@@ -100,4 +103,4 @@ for i in `seq 255 128`; do
     setBackgroundColor `rainbowColor $i`
     echo -n " "
 done
-resetOutput
+resetOutputFinal
