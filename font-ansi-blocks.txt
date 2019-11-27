@@ -2,7 +2,8 @@
 U+258x	▀	▁	▂	▃	▄	▅	▆	▇	█	▉	▊	▋	▌	▍	▎	▏
 U+259x	▐	░	▒	▓	▔	▕	▖	▗	▘	▙	▚	▛	▜	▝	▞	▟
 
-This is a bear:
+There should be no stripes (no lines between blocks) in the bear below
+https://github.com/mintty/mintty/issues/376
   _            _
 ▗▛▀▜▄ ▃▃▃,,. ~°°°┐
 ▐▌▗███████%#X0,  #
@@ -12,6 +13,3 @@ This is a bear:
 ▕██M%█▏▝▜▛▘▕█████▏
  ▜████▙━▘▝━▟████▛
   ▝▀▀▜██████▛▀▀▘
-
-There should be no stripes (no lines between blocks)
-https://github.com/mintty/mintty/issues/376

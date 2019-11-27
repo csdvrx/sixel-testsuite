@@ -1,5 +1,8 @@
 #!/bin/bash
-#
+
+echo "You should see 4 lines of continuous colors, without bands or breaks except if it reaches the right side of the screen"
+echo
+
 #   This file echoes four gradients with 24-bit color codes
 #   to the terminal to demonstrate their functionality.
 #   The foreground escape sequence is ^[38;2;<r>;<g>;<b>m
