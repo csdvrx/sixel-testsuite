@@ -48,7 +48,10 @@ Alternatively, when using mlterm you can tell it to extend your preferred font w
 
 You should get something like:
 
-![mintty displaying sixel](https://raw.githubusercontent.com/csdvrx/sixel-testsuite/master/test-passed.jpg)
+![mintty displaying VTE52 font attributes](https://raw.githubusercontent.com/csdvrx/sixel-testsuite/master/test-passed-part1.jpg)
+
+
+![mintty displaying ANSI and sixels](https://raw.githubusercontent.com/csdvrx/sixel-testsuite/master/test-passed-part2.jpg)
 
 ### Test failed
 
