@@ -53,6 +53,20 @@ You should get something like:
 
 ![mintty displaying ANSI and sixels](https://raw.githubusercontent.com/csdvrx/sixel-testsuite/master/test-passed-part2.jpg)
 
+Create your own image:
+
+Requirements: [libsixel](https://github.com/saitoha/libsixel)
+
+```sh
+$ img2sixel -7 jw_star-forming_region_carina_nircam.jpg \
+	-o jw_star-forming_region_carina_nircam.six
+$ cat jw_star-forming_region_carina_nircam.six
+```
+
+![xterm displaying sixels](jw_star-forming_region_carina_nircam_xterm.jpg)
+
+[Image source](https://www.nasa.gov/image-feature/goddard/2022/nasa-s-webb-reveals-cosmic-cliffs-glittering-landscape-of-star-birth).
+
 ### Test failed
 
 If the ANSI test fail, you may need a correct terminfo.
